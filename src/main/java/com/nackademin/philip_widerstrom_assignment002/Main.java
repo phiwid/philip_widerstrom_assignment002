@@ -32,7 +32,8 @@ public class Main {
 		System.out.println("SquareArea:  "  + ac.AreaOfSqare(valueOne, valueTwo));
 		System.out.println("CircleArea:  "  + ac.AreaOfCircle(valueTwo));
 		System.out.println("-------------------------------------:");
-		System.out.println("From Local Machine");
+		System.out.println("From Eclipse, virtual box");
+		
 		
 					
 	}
