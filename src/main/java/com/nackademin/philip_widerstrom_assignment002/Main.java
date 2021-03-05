@@ -14,7 +14,8 @@ public class Main {
 		System.out.println("Basic Calculator:");
 		System.out.println("Addition:  "  + bc.addition(valueOne, valueTwo));
 		System.out.println("Subtracton "  + bc.subtraction(valueOne, valueTwo));
-		System.out.println("Division "  + bc.division(valueOne, 0));
+		System.out.println("Division "  + bc.division(valueOne, valueTwo));
+		System.out.println("Division with negative value"  + bc.division(valueOne, 0));
 		System.out.println("Multiplication "  + bc.multiplication(valueOne, valueTwo));
 		System.out.println("-------------------------------------:");
 		
