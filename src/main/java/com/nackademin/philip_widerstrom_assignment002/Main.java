@@ -26,13 +26,13 @@ public class Main {
 		System.out.println("Division "  + ac.division(valueOne, valueTwo));
 		System.out.println("Multiplication "  + ac.multiplication(valueOne, valueTwo));
 		
-		System.out.println("SquareRoot:  "  + ac.SquareRoot(valueOne));
-		System.out.println("AbsoluteValue:  "  + ac.AbsolutValue(valueOne));
-		System.out.println("PowerOf:  "  + ac.PowerOf(valueOne, valueTwo));
-		System.out.println("SquareArea:  "  + ac.AreaOfSqare(valueOne, valueTwo));
-		System.out.println("CircleArea:  "  + ac.AreaOfCircle(valueTwo));
+		System.out.println("SquareRoot:  "  + ac.squareRoot(valueOne));
+		System.out.println("AbsoluteValue:  "  + ac.absolutValue(valueOne));
+		System.out.println("PowerOf:  "  + ac.powerOf(valueOne, valueTwo));
+		System.out.println("SquareArea:  "  + ac.areaOfSqare(valueOne, valueTwo));
+		System.out.println("CircleArea:  "  + ac.areaOfCircle(valueTwo));
 		System.out.println("-------------------------------------:");
-		System.out.println("From Local Machine");
+		
 		
 					
 	}
