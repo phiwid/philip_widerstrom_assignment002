@@ -31,7 +31,7 @@ public class Main {
 		System.out.println("PowerOf:  "  + ac.powerOf(valueOne, valueTwo));
 		System.out.println("SquareArea:  "  + ac.areaOfSqare(valueOne, valueTwo));
 		System.out.println("CircleArea:  "  + ac.areaOfCircle(valueTwo));
-		System.out.println("-------------------------------------:");
+		System.out.println("--------------------.-----------------:");
 		
 		
 					
