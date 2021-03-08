@@ -26,12 +26,22 @@ public class Main {
 		System.out.println("Division "  + ac.division(valueOne, valueTwo));
 		System.out.println("Multiplication "  + ac.multiplication(valueOne, valueTwo));
 		
+
 		System.out.println("SquareRoot:  "  + ac.squareRoot(valueOne));
 		System.out.println("AbsoluteValue:  "  + ac.absolutValue(valueOne));
 		System.out.println("PowerOf:  "  + ac.powerOf(valueOne, valueTwo));
 		System.out.println("SquareArea:  "  + ac.areaOfSqare(valueOne, valueTwo));
 		System.out.println("CircleArea:  "  + ac.areaOfCircle(valueTwo));
 		System.out.println("--------------------.-----------------:");
+
+		System.out.println("SquareRoot:  "  + ac.squareRoot(valueOne));
+		System.out.println("AbsoluteValue:  "  + ac.absolutValue(valueOne));
+		System.out.println("PowerOf:  "  + ac.powerOf(valueOne, valueTwo));
+		System.out.println("SquareArea:  "  + ac.areaOfSqare(valueOne, valueTwo));
+		System.out.println("CircleArea:  "  + ac.areaOfCircle(valueTwo));
+		System.out.println("-------------------------------------:");
+		System.out.println("From Eclipse, virtual box");
+
 		
 		
 					
