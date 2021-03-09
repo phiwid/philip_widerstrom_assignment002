@@ -13,7 +13,7 @@ public class BasicCalculatorTest {
 	public static final Logger log = Logger.getLogger(BasicCalculator.class.getName());
 	
 	@Test
-	public void additionTestWithPositiveNumbers() {
+	public void additionWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (rand.nextDouble() + (rand.nextInt(10)));
 			double d2 = (rand.nextDouble() + (rand.nextInt(10)));
@@ -24,7 +24,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void additionTestWithNegativeNumbers() {
+	public void additionWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (-rand.nextDouble() + (-rand.nextInt(10)));
 			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)));
@@ -35,7 +35,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void additionTestWithZeroValues() {
+	public void additionWithZeroValuesTest() {
 			double d1 = 0;
 			double d2 = 0;
 			double result = d1 + d2;
@@ -44,7 +44,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void subtractionTestWithPositiveNumbers() {
+	public void subtractionWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (rand.nextDouble() - (rand.nextInt(10)));
 			double d2 = (rand.nextDouble() - (rand.nextInt(10)));
@@ -55,7 +55,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void subtractionTestWithNegativeNumbers() {
+	public void subtractionWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (-rand.nextDouble() - (-rand.nextInt(10)));
 			double d2 = (-rand.nextDouble() - (-rand.nextInt(10)));
@@ -66,7 +66,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void subtractionTestWithZeroNumbers() {
+	public void subtractionWithZeroNumbersTest() {
 			double d1 = 0;
 			double d2 = 0;
 			double result = d1 - d2;
@@ -75,7 +75,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void multiplicationTestWithPositiveNumbers() {
+	public void multiplicationWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (rand.nextDouble() * (rand.nextInt(10)));
 			double d2 = (rand.nextDouble() * (rand.nextInt(10)));
@@ -86,7 +86,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void multiplicationTestWithNegativeNumbers() {
+	public void multiplicationWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (-rand.nextDouble() * (-rand.nextInt(10)));
 			double d2 = (-rand.nextDouble() * (-rand.nextInt(10)));
@@ -97,7 +97,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void multiplicationTestWithZero() {
+	public void multiplicationWithZeroTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = 0;
 			double d2 = (-rand.nextDouble() * (-rand.nextInt(10)));
@@ -108,7 +108,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void divisionTestWithPositiveNumbers() {
+	public void divisionWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (rand.nextDouble() / (rand.nextInt(10)));
 			double d2 = (rand.nextDouble() / (rand.nextInt(10)));
@@ -119,7 +119,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void divisionTestWithNegativeNumbers() {
+	public void divisionWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (-rand.nextDouble() / (-rand.nextInt(10)));
 			double d2 = (-rand.nextDouble() / (-rand.nextInt(10)));
@@ -130,7 +130,7 @@ public class BasicCalculatorTest {
 	}
 	
 	@Test
-	public void divisionTestWithZero() {
+	public void divisionWithZeroTest() {
 			double d1 = 10.0;
 			double d2 = 0.0;
 			double result = -999999; // fall back value used in the method 

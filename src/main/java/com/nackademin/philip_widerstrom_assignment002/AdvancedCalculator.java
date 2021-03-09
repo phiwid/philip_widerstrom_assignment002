@@ -17,7 +17,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 		return pow;
 	}
 
-	public double areaOfSqare(double firstNum, double secondNum) {
+	public double areaOfSquare(double firstNum, double secondNum) {
 		return firstNum * secondNum;
 	}
 

@@ -106,7 +106,7 @@ public class AdvancedCalculatorTest {
 			double d2 = (rand.nextDouble() + (rand.nextInt(10)));	
 			double result = d1 * d2;
 			log.info("Testing area of square with  " + d1 + " " + d2);
-			assertEquals(ac.areaOfSqare(d1,d2), result, 0);			
+			assertEquals(ac.areaOfSquare(d1,d2), result, 0);			
 		}
 	}
 	
@@ -116,7 +116,7 @@ public class AdvancedCalculatorTest {
 			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)));	
 			double result = d1 * d2;
 			log.info("Testing area of square with  " + d1 + " " + d2);
-			assertEquals(ac.areaOfSqare(d1,d2), result, 0);			
+			assertEquals(ac.areaOfSquare(d1,d2), result, 0);			
 		}
 	}
 	
@@ -125,7 +125,7 @@ public class AdvancedCalculatorTest {
 			double d2 = 0;	
 			double result = d1 * d2;
 			log.info("Testing area of square with  " + d1 + " " + d2);
-			assertEquals(ac.areaOfSqare(d1,d2), result, 0);			
+			assertEquals(ac.areaOfSquare(d1,d2), result, 0);			
 	}
 	
 	@Test
