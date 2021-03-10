@@ -109,7 +109,7 @@ public class AdvancedCalculatorTest {
 			assertEquals(ac.areaOfSquare(d1,d2), result, 0);			
 		}
 	}
-	
+	@Test
 	public void areaOfSquareNegativeNumberTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = (-rand.nextDouble() + (-rand.nextInt(10)));		
@@ -119,7 +119,7 @@ public class AdvancedCalculatorTest {
 			assertEquals(ac.areaOfSquare(d1,d2), result, 0);			
 		}
 	}
-	
+	@Test
 	public void areaOfSquarZeroNumberTest() {
 			double d1 = 0;		
 			double d2 = 0;	
