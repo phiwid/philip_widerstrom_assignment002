@@ -109,7 +109,7 @@ public class BasicCalculatorTest {
 	
 	@Test
 	public void divisionWithPositiveNumbersTest() {
-		for(int x = 0; x < 5; x++) {
+		for(int x = 0; x < 500; x++) {
 			double d1 = (rand.nextDouble() / (rand.nextInt(10)));
 			double d2 = (rand.nextDouble() / (rand.nextInt(10)));
 			double result = d1 / d2;
