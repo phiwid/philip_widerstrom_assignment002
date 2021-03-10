@@ -46,8 +46,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void subtractionWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (rand.nextDouble() - (rand.nextInt(10)));
-			double d2 = (rand.nextDouble() - (rand.nextInt(10)));
+			double d1 = (rand.nextDouble() + (rand.nextInt(10)));
+			double d2 = (rand.nextDouble() + (rand.nextInt(10)));
 			double result = d1 - d2;
 			log.info("Testing subtraction with  " + d1 + " - " + d2);
 			assertEquals(bc.subtraction(d1, d2), result, 0);			
@@ -57,8 +57,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void subtractionWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (-rand.nextDouble() - (-rand.nextInt(10)));
-			double d2 = (-rand.nextDouble() - (-rand.nextInt(10)));
+			double d1 = (-rand.nextDouble() + (-rand.nextInt(10)));
+			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)));
 			double result = d1 - d2;
 			log.info("Testing subtraction with  " + d1 + " - " + d2);
 			assertEquals(bc.subtraction(d1, d2), result, 0);			
@@ -77,8 +77,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void multiplicationWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (rand.nextDouble() * (rand.nextInt(10)));
-			double d2 = (rand.nextDouble() * (rand.nextInt(10)));
+			double d1 = (rand.nextDouble() + (rand.nextInt(10)));
+			double d2 = (rand.nextDouble() + (rand.nextInt(10)));
 			double result = d1 * d2;
 			log.info("Testing multiplication with  " + d1 + " * " + d2);
 			assertEquals(bc.multiplication(d1, d2), result, 0);			
@@ -88,8 +88,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void multiplicationWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (-rand.nextDouble() * (-rand.nextInt(10)));
-			double d2 = (-rand.nextDouble() * (-rand.nextInt(10)));
+			double d1 = (-rand.nextDouble() + (-rand.nextInt(10)));
+			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)));
 			double result = d1 * d2;
 			log.info("Testing multiplication with  " + d1 + " * " + d2);
 			assertEquals(bc.multiplication(d1, d2), result, 0);			
@@ -100,7 +100,7 @@ public class BasicCalculatorTest {
 	public void multiplicationWithZeroTest() {
 		for(int x = 0; x < 5; x++) {
 			double d1 = 0;
-			double d2 = (-rand.nextDouble() * (-rand.nextInt(10)));
+			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)));
 			double result = d1 * d2;
 			log.info("Testing multiplication with  " + d1 + " * " + d2);
 			assertEquals(bc.multiplication(d1, d2), result, 0);			
@@ -110,8 +110,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void divisionWithPositiveNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (rand.nextDouble() / (rand.nextInt(10)));
-			double d2 = (rand.nextDouble() / (rand.nextInt(10)));
+			double d1 = (rand.nextDouble() + (rand.nextInt(10)+1));
+			double d2 = (rand.nextDouble() + (rand.nextInt(10)+1));
 			double result = d1 / d2;
 			log.info("Testing division with  " + d1 + " / " + d2);
 			assertEquals(bc.division(d1, d2), result, 0);			
@@ -121,8 +121,8 @@ public class BasicCalculatorTest {
 	@Test
 	public void divisionWithNegativeNumbersTest() {
 		for(int x = 0; x < 5; x++) {
-			double d1 = (-rand.nextDouble() / (-rand.nextInt(10)));
-			double d2 = (-rand.nextDouble() / (-rand.nextInt(10)));
+			double d1 = (-rand.nextDouble() + (-rand.nextInt(10)+1));
+			double d2 = (-rand.nextDouble() + (-rand.nextInt(10)+1));
 			double result = d1 / d2;
 			log.info("Testing division with  " + d1 + " / " + d2);
 			assertEquals(bc.division(d1, d2), result, 0);			
