@@ -40,6 +40,7 @@ public class Main {
 		System.out.println("SquareArea:  "  + ac.areaOfSquare(valueOne, valueTwo));
 		System.out.println("CircleArea:  "  + ac.areaOfCircle(valueTwo));
 		System.out.println("-------------------------------------:");
+		System.out.println("-------------------------------------:");
 
 		
 		
